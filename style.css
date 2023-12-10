@@ -1,0 +1,315 @@
+html {
+    background-color: #000;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #wrapper {
+    width: 485px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 0;
+    background-color: #fff;
+    color: #007d7b;
+    font-size: 3em;
+    padding: 4px;
+  }
+
+  h2 {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+
+  nav h2 { 
+    visibility: hidden;
+    height: 1px;
+    margin: 0;
+  }
+
+  nav a {
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    display: block; 
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-transform: uppercase;
+  }
+  
+  nav li {
+    margin: auto;
+    list-style-type: none; 
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+  }
+  #about {
+    background-color: #fff;
+    padding: 10px;
+  }
+  #gallery {
+    background-color: #fff;
+    text-align: center;
+  }
+  #gallery p {
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1.25em;
+  }
+  
+  figure {
+    display: grid;
+    text-align: center;
+    padding-left: 6%;
+    margin-left: 0;
+  }
+  .figwhitetop {
+    position: relative;
+    color: #fff;
+    bottom: 1500%;
+  
+  }
+  .figwhitebottom {
+    position: relative;
+    color: #fff;
+    bottom: 300%;
+    
+  }
+  .figblacktop {
+    position: relative;
+    color: #000;
+    bottom: 1500%;
+  }
+  .figblacktop2 {
+    position: relative;
+    color: #000;
+    bottom: 3500%;
+  }
+  .figblackbottom {
+    position: relative;
+    color: #000;
+    bottom: 300%;
+  } 
+  
+  .form {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+  }
+  .form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  #form p {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+  }
+  
+  ::placeholder { 
+    color: #007d7b;
+  }
+  label {
+    color: #fff;
+    padding-left: 2em;
+    display: block;
+    font-weight: bold;
+  }
+  input {
+    margin-left: 1em;
+    margin-bottom: 20px;
+    padding-left: 1em;
+    width: 27em;
+    height: 2em;
+    font-weight: bold;
+  }
+  #submit {
+    background-color: #007d7b;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 8em;
+    margin-bottom: 4em;
+    width: 16em;
+    height: 3em;
+    border-radius: 1.2em;
+    justify-content: center;
+    border-style: none;
+  }
+  
+  footer { 
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  figcaption, label, input, small {
+    font-size: 1em;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #myphotos figcaption {
+    text-transform: uppercase;
+  }
+  
+  @media screen and (min-width: 485px) {
+    #wrapper {
+      width: 485px;
+    }
+  
+    .figwhitetop {
+      bottom: 1475%;
+    }
+    .figwhitebottom {
+      bottom: 150%;
+    }
+    .figblacktop {
+      bottom: 1450%;
+    }
+    .figblacktop2 {
+      bottom: 3400%;
+    }
+
+    .form p {
+      padding-bottom: 20px;
+    }
+  
+    figure {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-right: 0;
+      padding: 0;
+    }
+    
+
+    #myphotos {
+      padding-bottom: .5em;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 1px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 880px) {
+    #wrapper {
+      width: 880px;
+    }
+  
+    #myphotos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 0;
+      padding-bottom: 10px;
+    }
+  
+    figure {
+      margin: 0;
+      padding-bottom: 10px;
+  
+    }
+  
+    label {
+      margin-left: 8%;
+    }
+  
+    input {
+      margin-left: 9%;
+      width: 81%;
+    }
+  
+    #submit {
+      margin-left: 25%;
+      width: 50%;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1300px) {
+    #wrapper {
+      width: 1300px;
+    }
+  
+    nav ul {
+      padding-left: 68%;
+    }
+  
+    nav li {
+      padding-left: 20px;
+    }
+  
+    a {
+      padding-left: 10px;
+    }
+  
+    .figwhitebottom {
+      bottom: 300%;
+    }
+  
+    #myphotos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 0%;
+    }
+  
+    figure {
+      margin: 0;
+      padding: 0;
+    }
+  
+    img {
+      padding-bottom: 4%;
+    }
+    
+    label {
+      margin-left: 8%;
+    }
+  
+    input {
+      margin-left: 9%;
+      width: 81%;
+    }
+  
+    #submit {
+      margin-left: 25%;
+      width: 50%;
+    }
+  
+  }
