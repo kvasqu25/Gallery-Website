@@ -1,2 +1,2 @@
-# GalleryAssignment
+# Gallery
  
